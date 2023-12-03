@@ -1,0 +1,23 @@
+.kampus{
+
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding: 10px;
+    margin: 0 20px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+@media(max-width :768px)
+{
+    .logo{
+        width: 100%;
+        display: grid;
+        transform: scaleY(50%);
+        grid-template-columns: repeat(5,1fr);
+    }
+}
